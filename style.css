@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "lato", sans-serif;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem
+}
+
+img{
+    height: 50vh;
+}
+
+.down{
+  padding: 20px;
+}
+
+.dayValue{
+    width: 100px;
+    height: 25px;
+}
